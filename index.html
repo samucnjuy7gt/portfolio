@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="utf-8">
+
+	<title>Samuel Quesada</title>
+
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body onload="loadSlider()">
+	<header>
+		<h2>Samuel Quesada</h2>
+	</header>
+	<nav class="superior" id="superior">
+		<ul>
+			<li>
+				<a class="selected" href="index.html">Home</a>
+			</li>
+			<li>
+				<a href="projects.html">Projects</a>
+			</li>
+			<li>
+				<a href="about.html">About me</a>
+			</li>
+			<li>
+				<p class="cont" onclick="openContent()">Contact me</p>
+			</li>
+		</ul>
+	</nav>
+	<div class="info">
+		<h2>Welcome!</h2>
+		<p class="text">
+			For one reason or another, you have stumbled across with my portfolio. Here you may find the projects 
+			I have worked on, as well as a brief description about myself and some relevant information about my
+			background.
+		</p><br>
+		<p class="text">
+			I'm currently looking for expanding my developer skills further in the video game industry, as a 
+			junior game programmer. Here you have some images of the projects I have worked on, video game related. If you want 
+			more information about them, feel free to go to the <a href="projects.html" class="interest">Projects</a> 
+			page and take a closer look to these games and, even if you want, play them.
+		</p>
+	</div>
+	<div class="slider">
+		<figure class="imgCont">
+			<img src="img/DMSlide1.png" alt="DMSlide1" class="currentImg">
+			<img src="img/DWIScore2.png" alt="DWIScore2" class="hiddenImg">
+			<img src="img/OVSM2.png" alt="OVSM2" class="hiddenImg">
+			<img src="img/UFOD2.png" alt="UFOD2" class="hiddenImg">
+			<img src="img/DMSlide2.png" alt="DMSlide2" class="hiddenImg">
+			<img src="img/DWICans.png" alt="DWICans" class="hiddenImg">
+			<img src="img/OVSM.png" alt="OVSM" class="hiddenImg">
+			<img src="img/UFODMoreUFOs.png" alt="UFODMoreUFOs" class="hiddenImg">
+			<a class="prev" onclick="changeImg('l', true)">&#10094;</a>
+  			<a class="next" onclick="changeImg('r', true)">&#10095;</a>
+		</figure>	
+	</div>
+	<div id="contact" class="contact">
+		<div class="links">
+			<span id="close" class="close">&times;</span>
+			<h3 class="i">You can contact me by these links</h3>
+			<div class="conta">
+				<a href="mailto:samuelquesadacambil@gmail.com">EMAIL</a>
+				<a href="https://samucnjuy7gt.itch.io/" target="_blank">ITCH.IO</a>
+				<a href="https://www.linkedin.com/in/samuel-quesada-cambil-9b5304222/" target="_blank">LINKEDIN</a>
+			</div>
+		</div>
+	</div>
+	<script src="functions.js"></script>
+</body>
+</html>

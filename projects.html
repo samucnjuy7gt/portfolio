@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8">
+    
+        <title>Samuel Quesada</title>
+    
+        <link rel="stylesheet" type="text/css" href="projects.css">
+    </head>
+    <body>
+        <header>
+            <h2>Samuel Quesada</h2>
+        </header>
+        <nav class="superior" id="superior">
+            <ul>
+                <li>
+                    <a href="index.html">Home</a>
+                </li>
+                <li>
+                    <a class="selected" href="projects.html">Projects</a>
+                </li>
+                <li>
+                    <a href="about.html">About me</a>
+                </li>
+                <li>
+                    <p class="cont" onclick="openContent()">Contact me</p>
+                </li>
+            </ul>
+        </nav>
+        <div class="projects" id="projects">
+            <article class="DM" id="DM">
+                <div class="title">
+                    <h1 onclick="general('dm')">Dodgeball Masters</h1>
+                </div>
+                <div class="things">
+                    <figure class="image">
+                        <img src="img/DMLogo.png" alt="DMLogo" onclick="general('dm')">
+                    </figure>
+                    <div class="data">
+                        <img src="img/Genre 3.png" alt="Genre 3"><p>: Sports</p>
+                        <img src="img/Console2.png" alt="Console2"><p>: Linux</p>
+                        <img src="img/Development.png" alt="Development"><p>: OpenGL, C/C++</p>
+                    </div>
+                </div>
+            </article>
+            <article class="DWI" id="DWI">
+                <div class="title">
+                    <h1 onclick="general('dwi')">Deal With It!</h1>
+                </div>
+                <div class="things">
+                    <figure class="image">
+                        <img src="img/DWILogo.png" alt="DWILogo" onclick="general('dwi')">
+                    </figure>
+                    <div class="data">
+                        <img src="img/Genre 3.png" alt="Genre 3"><p>: Simulation</p>
+                        <img src="img/Console2.png" alt="Console2"><p>: Web browser</p>
+                        <img src="img/Development.png" alt="Development"><p>: Unity, C#</p>
+                    </div>
+                </div>
+            </article>
+            <article class="OVSM" id="OVSM">
+                <div class="title">
+                    <h1 onclick="general('ovsm')">Ōdo vs Murasakino</h1>
+                </div>
+                <div class="things">
+                    <figure class="image">
+                        <img src="img/OVSMLogo.png" onclick="general('ovsm')" alt="OVSMLogo">
+                    </figure>
+                    <div class="data">
+                        <img src="img/Genre 3.png" alt="Genre 3"><p>: Fight</p>
+                        <img src="img/Console2.png" alt="Console2"><p>: Windows, Web browser</p>
+                        <img src="img/Development.png" alt="Development"><p>: Unity, C#</p>
+                    </div>
+                </div>
+            </article>
+            <article class="UFOD" id="UFOD">
+                <div class="title">
+                    <h1 onclick="general('ufod')">U.F.O Driver</h1>
+                </div>
+                <div class="things">
+                    <figure class="image">
+                        <img src="img/UFODriverLogo.png" onclick="general('ufod')" alt="UFODriverLogo">
+                    </figure>
+                    <div class="data">
+                        <img src="img/Genre 3.png" alt="Genre 3"><p>: Puzzles</p>
+                        <img src="img/Console2.png" alt="Console2"><p>: Amstrad CPC</p>
+                        <img src="img/Development.png" alt="Development"><p>: CPCtelera, Assembly</p>
+                    </div>
+                </div>
+            </article>
+        </div>
+        <div class="content" id="content">
+        </div>
+        <div id="contact" class="contact">
+            <div class="links">
+                <span id="close" class="close">&times;</span>
+                <h3 class="i">You can contact me by these links</h3>
+                <div class="conta">
+                    <a href="mailto:samuelquesadacambil@gmail.com">EMAIL</a>
+                    <a href="https://samucnjuy7gt.itch.io/" target="_blank">ITCH.IO</a>
+                    <a href="https://www.linkedin.com/in/samuel-quesada-cambil-9b5304222/" target="_blank">LINKEDIN</a>
+                </div>
+            </div>
+        </div>
+        <script src="functions.js"></script>
+    </body>
+</html>
