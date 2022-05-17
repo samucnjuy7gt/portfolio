@@ -155,7 +155,12 @@ img{
 
 @media only screen and (max-width: 1020px){
 	.pr{
-		flex-direction: column;
+		display: block;
+		text-align: center;
+	}
+
+	.text1{
+		text-align: justify;
 	}
 
 	img{
