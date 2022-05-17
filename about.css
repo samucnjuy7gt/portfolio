@@ -25,10 +25,11 @@ nav#superior li{
 	width: 16.666%;
 	text-align: center;
 	font-weight: bold;
+	background-color: black;
 }
 
-nav#superior ul a{
-    color: black;
+nav#superior ul a, nav#superior ul p{
+    color: white;
 }
 
 nav#superior ul a, nav#superior ul p{
