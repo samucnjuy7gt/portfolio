@@ -185,8 +185,8 @@ function dm(){
     div.appendChild(div2);
     let a = document.createElement('a');
     a.innerHTML = 'Download\xa0\it!';
-    a.setAttribute('href', 'games/DodgeballMasters.zip');
-    a.setAttribute('dowload', '');
+    a.setAttribute('href', 'https://eps.ua.es/es/ingenieria-multimedia/videojuegos/juegos19-20.html');
+    a.setAttribute('target', '_blank');
     a.setAttribute('class', 'download');
     div2.appendChild(a);
 }
